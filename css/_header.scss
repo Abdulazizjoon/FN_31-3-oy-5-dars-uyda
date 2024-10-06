@@ -1,0 +1,56 @@
+$dark-color:#212832;
+.header_container{
+    display: flex;
+    align-items: center;
+    .logo{
+        img{
+            margin-top: 48.7px;
+            cursor: pointer;
+        }
+    }
+    ul{
+        margin-top: 50px;
+        a{
+            color: $dark-color;
+            text-decoration: none;
+            font-size: 17px;
+            line-height: 21px;
+            cursor: pointer;
+        }
+    }
+    .dest{
+        margin-left: 222px;
+        margin-right: 55px;
+    }
+    .hotels{
+        margin-right: 64px;
+    }
+    .flights{
+        margin-right: 62px;
+    }
+    .booking{
+        margin-right: 86px;
+    }
+    .login{
+        margin-right: 52px;
+    }
+    button{
+        border: 1px solid $dark-color;
+        border-radius: 5px;
+        font-size: 17px;
+        padding:9px 22px; 
+        margin-top: 50px;
+        color:$dark-color;
+        cursor: pointer;
+        background-color: #fff1da;
+    }
+    select{
+        margin-left: 42px;
+        font-size: 17px;
+        color: $dark-color;
+        border:0 solid $dark-color;
+        margin-top: 50px;
+        background-color: #fff1da;
+        // outline-color: aliceblue;
+    }
+}

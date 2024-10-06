@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+}
+.header_container .logo img {
+  margin-top: 48.7px;
+  cursor: pointer;
+}
+.header_container ul {
+  margin-top: 50px;
+}
+.header_container ul a {
+  color: #212832;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 21px;
+  cursor: pointer;
+}
+.header_container .dest {
+  margin-left: 222px;
+  margin-right: 55px;
+}
+.header_container .hotels {
+  margin-right: 64px;
+}
+.header_container .flights {
+  margin-right: 62px;
+}
+.header_container .booking {
+  margin-right: 86px;
+}
+.header_container .login {
+  margin-right: 52px;
+}
+.header_container button {
+  border: 1px solid #212832;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 9px 22px;
+  margin-top: 50px;
+  color: #212832;
+  cursor: pointer;
+  background-color: #fff1da;
+}
+.header_container select {
+  margin-left: 42px;
+  font-size: 17px;
+  color: #212832;
+  border: 0 solid #212832;
+  margin-top: 50px;
+  background-color: #fff1da;
+}
+
+.main_conatiner {
+  display: flex;
+}
+.main_conatiner h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #DF6951;
+  margin-top: 130px;
+  margin-bottom: 24px;
+}
+.main_conatiner h1 {
+  width: 545px;
+  height: 267px;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  color: #181E4B;
+  margin-bottom: 30px;
+}
+.main_conatiner p {
+  width: 477px;
+  height: 90px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #5E6282;
+}
+.main_conatiner .main_right img {
+  margin-top: 20px;
+  margin-left: -300px;
+  width: 765px;
+  height: 764px;
+}
+.main_conatiner .posittion {
+  position: absolute;
+  left: 800px;
+  z-index: -1;
+  top: 0px;
+}
+.main_conatiner .flex {
+  display: flex;
+  align-items: center;
+}
+.main_conatiner .flex button {
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.9px;
+  color: #fff;
+  background-color: #F1A501;
+  margin-right: 44px;
+}
+.main_conatiner .flex img {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.main_conatiner .flex p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25.5px;
+  margin-top: 60px;
+  color: #686D77;
+}
+
+.category_container .category_text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 97px;
+  text-align: center;
+  color: #5E6282;
+}
+.category_container h2 {
+  margin-top: 10px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64.5px;
+  text-align: center;
+  color: #14183E;
+  margin-bottom: 66px;
+}
+.category_container .opasity {
+  position: absolute;
+  top: 966px;
+  left: 1229px;
+}
+.category_container .category_cards {
+  display: flex;
+  gap: 150px;
+}
+.category_container .category_card {
+  width: 181px;
+  height: 229px;
+}
+.category_container .category_card img {
+  margin-left: 50px;
+  margin-bottom: 29px;
+  width: 92px;
+  height: 78px;
+  margin-top: 66px;
+}
+.category_container .category_card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: center;
+  color: #1E1D4C;
+  margin-bottom: 15px;
+}
+.category_container .category_card p {
+  width: 150px;
+  height: 78px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.coutry_container .top_selling {
+  margin-top: 250px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #5E6282;
+}
+.coutry_container h2 {
+  margin-top: 8px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64.5px;
+  text-align: center;
+  color: #14183E;
+  margin-bottom: 60px;
+}
+.coutry_container .country_cards {
+  gap: 35px;
+  display: flex;
+}
+.coutry_container .card {
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 400px;
+  width: 350px;
+  transition: all 0.5s;
+  padding-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.coutry_container .card .card_img {
+  height: 400px;
+  width: 380px;
+}
+.coutry_container .card .felex {
+  display: flex;
+  gap: 90px;
+  color: #5E6282;
+  font-size: 18px;
+  margin-bottom: 19px;
+}
+.coutry_container .card .flex {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: #5E6282;
+  font-size: 16px;
+  line-height: 19px;
+}
+.coutry_container .card .button {
+  position: absolute;
+  width: 315px;
+  height: 130px;
+  top: 321px;
+  left: 73px;
+  border-radius: 0px 0px 24px 24px;
+  opacity: 0px;
+}
+.coutry_container .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}/*# sourceMappingURL=style.css.map */

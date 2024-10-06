@@ -1,0 +1,64 @@
+.coutry_container{
+    .top_selling{
+        margin-top: 250px;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: center;
+        color: #5E6282;
+    }
+    h2{
+        margin-top: 8px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 64.5px;
+        text-align: center;
+        color: #14183E;
+        margin-bottom: 60px;
+    }
+    .country_cards{
+        gap: 35px;
+        display: flex;
+    }
+    .card{
+        position: relative;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        height: 400px;
+        width: 350px;
+        transition: all 0.5s;
+        padding-top: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+        .card_img{
+            height:400px;
+            width:380px;
+        }
+        .felex{
+            display: flex;
+            gap:90px;
+            color: #5E6282;
+            font-size: 18px;
+            margin-bottom: 19px;
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            color: #5E6282;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .button{
+            position: absolute;
+            width: 315px;
+            height: 130px;
+            top:321px;
+            left:73px;
+            border-radius: 0px 0px 24px 24px;
+            opacity: 0px;
+        }
+    }
+    .card:hover{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
