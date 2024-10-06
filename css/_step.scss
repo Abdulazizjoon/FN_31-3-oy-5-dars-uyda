@@ -1,0 +1,44 @@
+.steps_container{
+    display: flex;
+    .step_left{
+        .ease{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 27px;
+            color: #5E6282;
+            margin-top: 186px;
+        }
+        h2{
+            width: 511px;
+            height: 130px;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 64.5px;
+            color: #14183E;
+            margin-bottom: 31px;
+        }
+        .steps_card{
+            display: flex;
+            gap: 21px;
+            align-items: center;
+        }
+        span{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19.92px;
+            color: #5E6282;
+        }
+        .lorem{
+            width: 327px;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.92px;
+            color: #5E6282;
+        }
+    }
+    .step_right{
+        margin-top: 36px;
+        margin-left: 50px;
+    }
+}
