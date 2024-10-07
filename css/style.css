@@ -298,6 +298,13 @@
   display: flex;
   gap: 87px;
 }
+.user_container .pagination {
+  width: 14px;
+  height: 71.5px;
+  cursor: pointer;
+  margin-top: 140px;
+  margin-left: 114px;
+}
 .user_container .user_left p {
   font-size: 18px;
   font-weight: 600;
