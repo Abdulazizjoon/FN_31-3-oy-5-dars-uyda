@@ -364,4 +364,19 @@
   line-height: 21px;
   color: #5E6282;
   margin-left: 121px;
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+  gap: 77px;
+}
+.icon_container img {
+  cursor: pointer;
+  filter: grayscale(80%) blur(1px);
+  transition: all 0.5s;
+}
+.icon_container img:hover {
+  filter: grayscale(0%);
+  filter: blur(0px);
 }/*# sourceMappingURL=style.css.map */

@@ -73,3 +73,17 @@
         }
     }
 }
+.icon_container{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+    img{
+        cursor: pointer;
+        filter: grayscale(80%) blur(1px);
+        transition: all 0.5s;
+    }
+    img:hover{
+        filter: grayscale(0%);
+        filter: blur(0px);
+    }
+}
